@@ -1,7 +1,11 @@
-<h1>Hey there, I am</h1>
-<h2 class="big-heading">Pangpangguy.</h2>
-<h2 class="big-heading">And I like to build stuffs</h2>
-<p>
-  A soon-to-be computer science graduate, I am an aspiring (and broke) software
-  developer with a particular interest in building things for the web.
-</p>
+<app-heading-title></app-heading-title>
+<div class="row">
+  <div class="col-10 offset-1">
+    <div class="nav-items">
+      <app-navigation-card
+        *ngFor="let nav of navigations"
+        [title]="nav"
+      ></app-navigation-card>
+    </div>
+  </div>
+</div>

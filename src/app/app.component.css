@@ -1,8 +1,8 @@
-.big-heading {
-  margin: 0;
-  font-size: 80px;
-}
-
-p {
-  font-size: 25px;
+.nav-items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 50vh;
+  width: 1000px;
 }
