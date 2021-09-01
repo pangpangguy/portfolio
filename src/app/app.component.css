@@ -3,6 +3,9 @@
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  height: 50vh;
   width: 1000px;
+}
+
+.nav-items:hover > app-navigation-card:not(:hover) {
+  filter: blur(0.7px) brightness(0.8);
 }

@@ -10,4 +10,9 @@ export class NavigationCardComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {}
+
+  getImagePath() {
+    console.log('test');
+    return `../../assets/images/${this.title}.png`;
+  }
 }
