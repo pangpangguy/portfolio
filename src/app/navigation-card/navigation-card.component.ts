@@ -7,12 +7,16 @@ import { Input } from '@angular/core';
 })
 export class NavigationCardComponent implements OnInit {
   @Input() title: String = '';
+  @Input() routeName: String = '';
   constructor() {}
 
   ngOnInit(): void {}
 
   getImagePath() {
-    console.log('test');
     return `../../assets/images/${this.title}.png`;
+  }
+
+  getRouteName() {
+    return '/' + this.routeName.toLowerCase();
   }
 }

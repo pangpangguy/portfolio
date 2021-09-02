@@ -1,11 +1,5 @@
-<app-heading-title></app-heading-title>
 <div class="row">
   <div class="col-10 offset-1">
-    <div class="nav-items">
-      <app-navigation-card
-        *ngFor="let nav of navigations"
-        [title]="nav"
-      ></app-navigation-card>
-    </div>
+    <router-outlet></router-outlet>
   </div>
 </div>

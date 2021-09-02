@@ -7,5 +7,4 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'portfolio-v2';
-  navigations = ['About', 'Experience', 'Skills', 'Contacts'];
 }
