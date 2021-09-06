@@ -1,0 +1,14 @@
+.section {
+  font-size: 70px;
+  padding: 0;
+  height: auto;
+}
+p {
+  display: inline-block;
+}
+
+.separator {
+  height: 5px;
+  width: 5px;
+  background-color: red;
+}

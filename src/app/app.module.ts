@@ -10,6 +10,7 @@ import { ContactPageComponent } from './contact-page/contact-page.component';
 import { ExperiencePageComponent } from './experience-page/experience-page.component';
 import { SkillsPageComponent } from './skills-page/skills-page.component';
 import { AppRoutingModule } from './app-routing.module';
+import { SectionHeadingComponent } from './section-heading/section-heading.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { AppRoutingModule } from './app-routing.module';
     ContactPageComponent,
     ExperiencePageComponent,
     SkillsPageComponent,
+    SectionHeadingComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
