@@ -22,16 +22,12 @@ img {
   content: "";
 
   /*Set style*/
-  background-color: #64ffda;
+  border: 1px solid #64ffda;
   top: 9px;
   left: 9px;
   /*Position*/
   z-index: -1;
   transition: all 0.5s ease-out;
-}
-.picture:hover {
-  top: 7px;
-  left: 7px;
 }
 
 .picture:hover img {
@@ -51,7 +47,7 @@ img {
   /*Color and styling**/
   --border-color: #73bbc5;
   color: #64ffda;
-  background: #0a192f;
+  background: #071222;
   border: 4px solid var(--border-color);
   text-decoration: none;
   font-weight: bold;
@@ -80,15 +76,16 @@ img {
   z-index: -1;
   content: "";
 
-  transition: all 0.75s;
+  transition: all 0.4s;
 }
 
 .resume-btn:hover {
   left: 4px;
   top: 4px;
+  background-color: #203c64;
 }
 
 .resume-btn:hover:after {
-  left: -4px;
-  top: -4px;
+  left: -0.5px;
+  top: -0.5px;
 }

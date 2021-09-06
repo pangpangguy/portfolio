@@ -1,14 +1,15 @@
 .section {
   font-size: 70px;
-  padding: 0;
-  height: auto;
+  color: #c5c7ce;
 }
-p {
-  display: inline-block;
+.dot {
+  font-size: 110%;
 }
 
 .separator {
-  height: 5px;
-  width: 5px;
-  background-color: red;
+  height: 1px;
+  width: 40%;
+  background-color: #9faacc;
+  opacity: 0.5;
+  margin-bottom: 2rem;
 }
