@@ -11,6 +11,8 @@ import { ExperiencePageComponent } from './experience-page/experience-page.compo
 import { SkillsPageComponent } from './skills-page/skills-page.component';
 import { AppRoutingModule } from './app-routing.module';
 import { SectionHeadingComponent } from './section-heading/section-heading.component';
+import { WorkExperienceComponent } from './experience-page/work-experience/work-experience.component';
+import { ProjectsComponent } from './experience-page/projects/projects.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +25,8 @@ import { SectionHeadingComponent } from './section-heading/section-heading.compo
     ExperiencePageComponent,
     SkillsPageComponent,
     SectionHeadingComponent,
+    WorkExperienceComponent,
+    ProjectsComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
