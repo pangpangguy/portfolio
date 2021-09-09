@@ -1,1 +1,5 @@
-<p>projects works!</p>
+<div class="row mt-3">
+  <div class="col-12 col-md-6 col-lg-4" *ngFor="let p of projects">
+    <app-project [project]="p"></app-project>
+  </div>
+</div>

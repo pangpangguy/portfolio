@@ -1,5 +1,6 @@
 .section {
-  font-size: 70px;
+  font-family: "Calibre SemiBold";
+  font-size: 4rem;
   color: #c5c7ce;
 }
 .dot {

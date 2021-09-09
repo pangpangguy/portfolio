@@ -2,20 +2,20 @@
   font-size: 130%;
   width: 40%;
   height: 120%;
-  background-color: #0a192f;
+  background-color: var(--bg-color);
   color: rgb(136, 136, 136);
   border: none;
   border-bottom: 1px solid #272727;
-  transition: 0.5s ease;
+  transition: 300ms ease;
 }
 
 .experience:hover {
-  color: #64ffda;
+  color: var(--neon-green);
   background-color: #0e2341;
 }
 
-.experience:focus {
-  border-bottom: 1px solid #64ffda;
-  color: #64ffda;
+.selected {
+  border-bottom: 1px solid var(--neon-green);
+  color: var(--neon-green);
   outline: none;
 }

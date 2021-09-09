@@ -1,0 +1,69 @@
+.project-card {
+  color: var(--word-color);
+  background-color: var(--light-bg-color);
+  font-size: 1.1rem;
+
+  /*   Shape and size */
+  padding: 1rem 1.5rem 0.5rem;
+
+  border-radius: 3px;
+  /*35 characters wide*/
+  max-width: 35ch;
+
+  /*Hide explore-project when not hovering*/
+  overflow: hidden;
+
+  /* Animations */
+  transition: transform 500ms ease;
+  cursor: pointer;
+}
+
+.project-card p {
+  margin-top: 2rem;
+}
+
+.project-title {
+  color: var(--bright-word-color);
+  font-family: "Calibre SemiBold";
+  transition: 250ms ease;
+}
+
+.project-title::after {
+  content: "";
+  width: 0px;
+  height: 1px;
+  display: block;
+  background: #64ffda;
+  transition: 300ms;
+}
+
+.explore-project {
+  transform: translateY(200%);
+  transition: transform 500ms ease;
+}
+
+i {
+  color: var(--bright-word-color);
+  transition: 400ms ease;
+}
+
+/*Animations*/
+.project-card:hover {
+  transform: scale(1.05);
+}
+
+.project-card:hover .explore-project {
+  transform: translateY(0);
+}
+
+.project-card:hover .project-title {
+  color: var(--neon-green);
+}
+
+i:hover {
+  color: var(--neon-green);
+}
+
+.project-card:hover .project-title::after {
+  width: 80%;
+}

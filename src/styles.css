@@ -3,9 +3,29 @@
   font-family: "Calibre";
   src: url("./fonts/Calibre-Regular.woff") format("woff");
 }
+@font-face {
+  font-family: "Calibre Semibold";
+  src: url("./fonts/Calibre-Semibold.woff") format("woff");
+}
+@font-face {
+  font-family: "Calibre Bold";
+  src: url("./fonts/Calibre-Bold.woff") format("woff");
+}
+@font-face {
+  font-family: "Calibre Thin";
+  src: url("./fonts/Calibre-Thin.woff") format("woff");
+}
+
+:root {
+  --bg-color: #0a192f;
+  --light-bg-color: #233554;
+  --word-color: #9faacc;
+  --bright-word-color: #ced6f0;
+  --neon-green: #64ffda;
+}
+
 body {
   font-family: "Calibre", monospace;
-  --body-color: #0a192f;
-  background-color: var(--body-color);
-  color: #9faacc;
+  background-color: var(--bg-color);
+  color: var(--word-color);
 }

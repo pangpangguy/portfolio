@@ -1,7 +1,7 @@
 .big-heading {
   margin: 0;
   font-size: 80px;
-  color: #ced6f0;
+  color: var(--bright-word-color);
 }
 
 .sub-heading {

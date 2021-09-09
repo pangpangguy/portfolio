@@ -13,6 +13,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { SectionHeadingComponent } from './section-heading/section-heading.component';
 import { WorkExperienceComponent } from './experience-page/work-experience/work-experience.component';
 import { ProjectsComponent } from './experience-page/projects/projects.component';
+import { ProjectComponent } from './experience-page/projects/project/project.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { ProjectsComponent } from './experience-page/projects/projects.component
     SectionHeadingComponent,
     WorkExperienceComponent,
     ProjectsComponent,
+    ProjectComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

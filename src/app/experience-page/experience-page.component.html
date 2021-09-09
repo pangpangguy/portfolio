@@ -1,20 +1,28 @@
 <app-section-heading section_title="My Experiences"></app-section-heading>
 <div class="row">
   <div class="col-6 offset-3 mb-3">
-    <button class="experience" autofocus (click)="onShowWork()">
+    <button
+      class="experience"
+      (click)="onShowWork()"
+      [ngClass]="{ selected: showWork }"
+    >
       Work Experiences
     </button>
-    <button class="experience" (click)="onShowProjects()">
+    <button
+      class="experience"
+      (click)="onShowProjects()"
+      [ngClass]="{ selected: !showWork }"
+    >
       Personal Projects
     </button>
   </div>
 </div>
 
-<div class="row">
+<div class="row mt-3">
   <div class="col-md-12">
     <app-work-experience *ngIf="showWork; else projects"></app-work-experience>
-    <ng-template #projects>
-      <app-projects></app-projects>
-    </ng-template>
   </div>
+  <ng-template #projects>
+    <app-projects></app-projects>
+  </ng-template>
 </div>
