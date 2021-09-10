@@ -18,4 +18,8 @@ export class ProjectComponent implements OnInit {
   siteAvailable() {
     return this.project.site != '';
   }
+
+  getTechnologies() {
+    return this.project.technologies.join('');
+  }
 }

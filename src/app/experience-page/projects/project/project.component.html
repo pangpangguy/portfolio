@@ -3,6 +3,12 @@
   <p>
     {{ project.description }}
   </p>
+  <hr />
+  <div class="row tech mb-2">
+    <div class="d-flex justify-content-around">
+      <span *ngFor="let t of project.technologies">{{ t }}</span>
+    </div>
+  </div>
   <div class="explore-project">
     <div class="row">
       <div class="d-flex justify-content-evenly">

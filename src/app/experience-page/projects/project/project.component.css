@@ -5,11 +5,10 @@
 
   /*   Shape and size */
   padding: 1rem 1.5rem 0.5rem;
-
+  margin-bottom: 1rem;
   border-radius: 3px;
   /*35 characters wide*/
   max-width: 35ch;
-
   /*Hide explore-project when not hovering*/
   overflow: hidden;
 
@@ -17,9 +16,15 @@
   transition: transform 500ms ease;
   cursor: pointer;
 }
+p {
+  margin-top: 1rem;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
 
-.project-card p {
-  margin-top: 2rem;
+.tech {
+  font-family: "Calibre Thin";
+  font-size: 1rem;
 }
 
 .project-title {
