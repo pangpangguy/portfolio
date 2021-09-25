@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./contact-page.component.css']
 })
 export class ContactPageComponent implements OnInit {
-
+  private contacts:String[] = ["LinkedIn","Github", "Gitlab", "Email"]
   constructor() { }
 
   ngOnInit(): void {
