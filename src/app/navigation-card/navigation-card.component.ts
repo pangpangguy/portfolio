@@ -8,6 +8,7 @@ import { Input } from '@angular/core';
 export class NavigationCardComponent implements OnInit {
   @Input() title: String = '';
   @Input() routeName: String = '';
+
   constructor() {}
 
   ngOnInit(): void {}

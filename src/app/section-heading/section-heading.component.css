@@ -2,6 +2,7 @@
   font-family: "Calibre SemiBold";
   font-size: 4rem;
   color: #c5c7ce;
+  transition: 300ms ease-out;
 }
 .dot {
   font-size: 110%;
@@ -9,7 +10,7 @@
 
 .separator {
   height: 1px;
-  width: 40%;
+  width: 50%;
   background-color: #9faacc;
   opacity: 0.5;
   margin-bottom: 2rem;

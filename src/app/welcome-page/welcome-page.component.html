@@ -1,7 +1,7 @@
 <app-heading-title></app-heading-title>
-<div class="nav-items">
+<div class="nav-items mt-5">
   <app-navigation-card
-    *ngFor="let nav of navigations"
+    *ngFor="let nav of navigations; let i = index"
     [title]="nav"
     [routeName]="nav"
   ></app-navigation-card>

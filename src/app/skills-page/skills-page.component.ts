@@ -22,7 +22,7 @@ export class SkillsPageComponent implements OnInit {
   ];
   constructor() {}
 
-  ngOnInit(): void {}
+  ngOnInit() {}
 
   findNbCols(items: String[]) {
     var cols = items.length / 4;

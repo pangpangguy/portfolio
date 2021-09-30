@@ -11,3 +11,7 @@ h2 {
   font-family: "Calibre Thin";
   font-size: 2rem;
 }
+
+.animate__animated.animate__fadeInDown {
+  --animate-duration: 0.25s;
+}

@@ -29,3 +29,7 @@ body {
   background-color: var(--bg-color);
   color: var(--word-color);
 }
+
+::-webkit-scrollbar {
+  width: 2em;
+}

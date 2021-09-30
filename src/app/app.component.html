@@ -1,5 +1,19 @@
 <div class="row">
-  <div class="col-10 offset-1">
+  <div class="col-9 offset-2">
     <router-outlet></router-outlet>
+  </div>
+
+  <!--navbar-->
+  <div class="col-2 nvbar position-fixed" *ngIf="showNav">
+    <div class="nvbar-content">
+      <div class="row" *ngFor="let nav of navigations">
+        <app-nav-items
+          [icon]="nav[2]"
+          [nav_link]="nav[1]"
+          [text]="nav[0]"
+          class="my-4"
+        ></app-nav-items>
+      </div>
+    </div>
   </div>
 </div>

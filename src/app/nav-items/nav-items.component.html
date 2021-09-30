@@ -1,0 +1,8 @@
+<a
+  [routerLink]="nav_link"
+  [class]="icon"
+  (mouseover)="changeState()"
+  (mouseleave)="changeState()"
+  [class.selected]="isCurrentRoute()"
+></a>
+<span [@textAnimation]="setState()">{{ text }}</span>

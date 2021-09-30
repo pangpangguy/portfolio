@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppComponent } from './app.component';
 import { HeadingTitleComponent } from './heading-title/heading-title.component';
 import { NavigationCardComponent } from './navigation-card/navigation-card.component';
@@ -14,6 +13,8 @@ import { SectionHeadingComponent } from './section-heading/section-heading.compo
 import { WorkExperienceComponent } from './experience-page/work-experience/work-experience.component';
 import { ProjectsComponent } from './experience-page/projects/projects.component';
 import { ProjectComponent } from './experience-page/projects/project/project.component';
+import { NavItemsComponent } from './nav-items/nav-items.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -29,8 +30,9 @@ import { ProjectComponent } from './experience-page/projects/project/project.com
     WorkExperienceComponent,
     ProjectsComponent,
     ProjectComponent,
+    NavItemsComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule],
+  imports: [BrowserModule, AppRoutingModule, BrowserAnimationsModule],
   providers: [],
   bootstrap: [AppComponent],
 })

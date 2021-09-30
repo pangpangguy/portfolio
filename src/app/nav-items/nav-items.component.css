@@ -1,12 +1,3 @@
-p {
-  font-family: "Calibre";
-  font-size: 1.5rem;
-}
-
-.contacts {
-  transform: translateY(100px);
-}
-
 a {
   cursor: pointer;
   color: var(--word-color);
@@ -16,5 +7,13 @@ a {
 
 a:hover {
   color: var(--neon-green);
-  transform: translateY(-10px);
+}
+
+span {
+  display: inline-block;
+  font-size: 1.7rem;
+}
+
+.selected {
+  color: var(--neon-green);
 }

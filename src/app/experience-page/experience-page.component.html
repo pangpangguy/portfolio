@@ -18,11 +18,7 @@
   </div>
 </div>
 
-<div class="row mt-3">
-  <div class="col-md-12">
-    <app-work-experience *ngIf="showWork; else projects"></app-work-experience>
-  </div>
-  <ng-template #projects>
-    <app-projects></app-projects>
-  </ng-template>
+<div class="container mt-3">
+  <app-work-experience *ngIf="showWork"></app-work-experience>
+  <app-projects *ngIf="!showWork"></app-projects>
 </div>

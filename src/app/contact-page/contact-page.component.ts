@@ -3,13 +3,12 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-contact-page',
   templateUrl: './contact-page.component.html',
-  styleUrls: ['./contact-page.component.css']
+  styleUrls: ['./contact-page.component.css'],
 })
 export class ContactPageComponent implements OnInit {
-  private contacts:String[] = ["LinkedIn","Github", "Gitlab", "Email"]
-  constructor() { }
+  contacts: String[] = ['LinkedIn', 'Github', 'Gitlab', 'Email'];
 
-  ngOnInit(): void {
-  }
+  constructor() {}
 
+  ngOnInit(): void {}
 }
