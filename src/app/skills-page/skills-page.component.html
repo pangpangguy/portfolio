@@ -11,7 +11,10 @@
   <h2>Proficient</h2>
 </div>
 <div class="row" data-aos="fade-down" data-aos-delay="150">
-  <div class="col-4 skill" *ngFor="let s of proficient; let i = index">
+  <div
+    class="col-12 col-md-6 col-lg-4 skill"
+    *ngFor="let s of proficient; let i = index"
+  >
     {{ s }}
   </div>
 </div>
@@ -20,8 +23,11 @@
 <div class="row mt-5" data-aos="fade-down" data-aos-delay="200">
   <h2>Familiar</h2>
 </div>
-<div class="row" data-aos="fade-down" data-aos-delay="250">
-  <div class="col-4 skill" *ngFor="let s of familiar; let i = index">
+<div class="row" data-aos="fade-down" data-aos-delay="200">
+  <div
+    class="col-12 col-md-6 col-lg-4 skill"
+    *ngFor="let s of familiar; let i = index"
+  >
     {{ s }}
   </div>
 </div>

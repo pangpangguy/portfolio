@@ -89,3 +89,25 @@ img {
   left: -0.4px;
   top: -0.4px;
 }
+
+.buttons {
+  --animate-delay: 0.1s;
+}
+
+.school {
+  color: #64ffda;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.school::after {
+  content: "";
+  width: 0px;
+  height: 1px;
+  display: block;
+  background: #64ffda;
+  transition: 300ms;
+}
+.school:hover::after {
+  width: 100%;
+}

@@ -3,10 +3,6 @@ p {
   font-size: 1.5rem;
 }
 
-.contacts {
-  transform: translateY(100px);
-}
-
 a {
   cursor: pointer;
   color: var(--word-color);
@@ -17,4 +13,17 @@ a {
 a:hover {
   color: var(--neon-green);
   transform: translateY(-10px);
+}
+
+.fa-envelope {
+  --animate-delay: 0.1s;
+}
+.fa-linkedin {
+  --animate-delay: 0.2s;
+}
+.fa-github {
+  --animate-delay: 0.3s;
+}
+.fa-gitlab {
+  --animate-delay: 0.4s;
 }

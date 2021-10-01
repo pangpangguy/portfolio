@@ -17,3 +17,15 @@ span {
 .selected {
   color: var(--neon-green);
 }
+
+@media screen and (max-width: 1200px) {
+  span {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  span {
+    display: none;
+  }
+}
