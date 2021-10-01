@@ -1,5 +1,5 @@
 <app-section-heading section_title="My Skills"></app-section-heading>
-<div class="row mb-3 animate__animated animate__fadeInDown">
+<div class="row mb-3" data-aos="fade-down">
   <div class="col-12">
     <p>
       Here are some of the technologies that I am working / have worked with in
@@ -7,32 +7,23 @@
     </p>
   </div>
 </div>
-<div class="row mt-5 animate__animated animate__fadeInDown">
+<div class="row mt-5" data-aos="fade-down" data-aos-delay="100">
   <h2>Proficient</h2>
 </div>
-<div class="row">
-  <div
-    class="col-4 skill animate__animated animate__fadeInLeftBig"
-    *ngFor="let s of proficient; let i = index"
-  >
+<div class="row" data-aos="fade-down" data-aos-delay="150">
+  <div class="col-4 skill" *ngFor="let s of proficient; let i = index">
     {{ s }}
   </div>
 </div>
 <hr />
 
-<div class="row mt-5 animate__animated animate__fadeInDown">
+<div class="row mt-5" data-aos="fade-down" data-aos-delay="200">
   <h2>Familiar</h2>
 </div>
-<div class="row">
-  <div
-    class="col-4 skill animate__animated animate__fadeInLeftBig"
-    *ngFor="let s of familiar; let i = index"
-  >
+<div class="row" data-aos="fade-down" data-aos-delay="250">
+  <div class="col-4 skill" *ngFor="let s of familiar; let i = index">
     {{ s }}
   </div>
 </div>
 
-<script>
-  const element = document.querySelector(".my-element");
-  console.log(element);
-</script>
+<script></script>

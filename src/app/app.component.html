@@ -4,7 +4,12 @@
   </div>
 
   <!--navbar-->
-  <div class="col-2 nvbar position-fixed" *ngIf="showNav">
+  <div
+    class="col-2 nvbar position-fixed"
+    *ngIf="showNav"
+    data-aos="fade-right"
+    data-aos-duration="150"
+  >
     <div class="nvbar-content">
       <div class="row" *ngFor="let nav of navigations">
         <app-nav-items
