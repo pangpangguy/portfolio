@@ -12,7 +12,13 @@ a {
 
 a:hover {
   color: var(--neon-green);
-  transform: translateY(-10px);
+}
+
+.contact {
+  transition: 250ms ease;
+}
+.contact:hover {
+  transform: translateY(-20px);
 }
 
 .fa-envelope {

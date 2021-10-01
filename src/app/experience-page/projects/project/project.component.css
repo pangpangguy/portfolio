@@ -54,9 +54,8 @@ i {
 
 /*Animations*/
 .project-card:hover {
-  transform: scale(1.05);
+  transform: translateY(-10px);
 }
-
 .project-card:hover .explore-project {
   transform: translateY(0);
 }

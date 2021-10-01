@@ -12,6 +12,7 @@ export class AppComponent {
     ['Experience', '/experience', 'fas fa-briefcase fa-2x'],
     ['Skills', '/skills', 'fas fa-tools fa-2x'],
     ['Contacts', '/contacts', 'fas fa-phone-square fa-2x'],
+    ['Homepage', '/', 'fas fa-undo fa-2x'],
   ];
 
   showNav = false;
