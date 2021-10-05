@@ -1,5 +1,5 @@
 .nvbar {
   display: flex;
   align-items: center;
-  height: 800px;
+  min-height: 700px;
 }
